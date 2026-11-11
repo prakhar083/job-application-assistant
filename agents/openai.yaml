@@ -1,0 +1,4 @@
+interface:
+  display_name: "Job Application Assistant"
+  short_description: "Find matching jobs, apply, and remember answers"
+  default_prompt: "Use $job-application-assistant to find jobs matching my resume from supplied links or my signed-in LinkedIn in Chrome, track applications, and reuse my confirmed answers."
