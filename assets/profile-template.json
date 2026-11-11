@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "resume": {"path": null, "version": null, "reviewed_at": null},
+  "identity": {},
+  "employment": [],
+  "skills": {},
+  "preferences": {},
+  "answers": {},
+  "disclosures": {},
+  "workflow_preferences": {"email_review_before_send": true},
+  "notes": []
+}
