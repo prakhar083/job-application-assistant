@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="520" viewBox="0 0 1440 520" role="img" aria-labelledby="title desc">
+<title id="title">Job Application Assistant — Neon Protocol</title><desc id="desc">An original cyberpunk city illustration with an anime-inspired visor portrait, cyan rain and magenta lights.</desc>
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#050917"/><stop offset=".55" stop-color="#14112e"/><stop offset="1" stop-color="#340e3d"/></linearGradient>
+<linearGradient id="neon"><stop stop-color="#50f8f2"/><stop offset="1" stop-color="#ff50ca"/></linearGradient>
+<linearGradient id="hair" x2="1" y2="1"><stop stop-color="#432254"/><stop offset="1" stop-color="#080e21"/></linearGradient>
+<pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#71d8f4" stroke-opacity=".07"/></pattern>
+<pattern id="rain" width="110" height="90" patternUnits="userSpaceOnUse"><path d="M24 0L0 54M88 44L66 90" stroke="#7fffff" stroke-opacity=".09"/></pattern>
+<filter id="glow"><feGaussianBlur stdDeviation="5"/></filter>
+</defs>
+<path fill="url(#bg)" d="M0 0H1440V520H0z"/><path fill="url(#grid)" d="M0 0H1440V520H0z"/>
+<circle cx="1180" cy="215" r="167" fill="none" stroke="#ff42c3" stroke-width="2" opacity=".4"/>
+<circle cx="1180" cy="215" r="151" fill="none" stroke="#ff42c3" stroke-width="14" opacity=".06"/>
+<g fill="#090e21" stroke="#5be5f2" stroke-opacity=".15">
+<path d="M0 400h35V280h55v120h30V326h90v74h43V240h72v160h39V300h82v100h48V213h59v187h49V290h64v110h41V258h74v142h38v-95h70v95h31v-51h81v51h47V275h70v125h38V307h89v93h51V267h68v133h41v-73h92v193H0z"/>
+</g>
+<g stroke="#ff52c4" opacity=".25"><path d="M50 300v50m215-90v50m239-70v80m210-50v65m434-8v55m192-35v50" stroke-width="5"/></g>
+<path d="M930 520L991 383L1074 344L1217 352L1309 410L1370 520" fill="#070d1d" stroke="#6af8f2" stroke-opacity=".6" stroke-width="2"/>
+<path d="M1078 328l-5 43 70 47 62-45-18-66" fill="#322338" stroke="#fa6fd0" stroke-opacity=".55"/>
+<path d="M1025 192q-6-105 121-120 110-2 132 101l-23 117-89 74-81-31-51-79z" fill="#61405d"/>
+<path d="M1018 233l-28-42 33-82 65-44 82-4 77 40 41 74-21 101-36-74-35-56-36 63-16-65-41 60-14-47-43 85-13 56z" fill="url(#hair)" stroke="#ff6bcd" stroke-width="2"/>
+<path d="M1039 234l76-17 107 8-12 46-90 5-67-15z" fill="#081827" stroke="#69ffef" stroke-width="2"/>
+<path d="M1063 241l36-6-17 18zM1159 240l36 1-23 13z" fill="#71fff1"/>
+<path d="M1063 241l36-6-17 18zM1159 240l36 1-23 13z" fill="#71fff1" filter="url(#glow)"/>
+<path d="M1138 272l-9 20 14 2M1122 316l34-1" fill="none" stroke="#e9a4c6" stroke-width="2"/>
+<path d="M1004 394l81-44 58 68-53 102M1220 354l53 42-78 124" fill="#181831" stroke="#fa61d0" stroke-width="2"/>
+<path d="M1007 454h62m-48 16h32m175-34h45" stroke="#62fff0" stroke-width="3"/>
+<path fill="url(#rain)" d="M0 0H1440V520H0z"/>
+<g font-family="ui-monospace, SFMono-Regular, Consolas, monospace">
+<text x="64" y="72" fill="#61fff0" font-size="14" letter-spacing="4">JAA / CANDIDATE SYSTEMS</text>
+<text x="64" y="174" fill="#f4f4ff" font-size="61" font-weight="800" letter-spacing="-2">JOB APPLICATION</text>
+<text x="64" y="246" fill="#f4f4ff" font-size="61" font-weight="800" letter-spacing="-2">ASSISTANT<tspan fill="#ff61d2">_</tspan></text>
+<path d="M64 280h650" stroke="url(#neon)" stroke-width="3"/>
+<text x="66" y="322" fill="#cebfde" font-size="19" letter-spacing="3">YOUR NEXT CHAPTER STARTS HERE.</text>
+<text x="66" y="382" fill="#66fff2" font-size="14">[ DISCOVER ]</text><text x="245" y="382" fill="#ff72d5" font-size="14">[ APPLY ]</text><text x="396" y="382" fill="#cbb6ff" font-size="14">[ REMEMBER ]</text>
+<text x="64" y="475" fill="#8d8eae" font-size="12" letter-spacing="2">NEON PROTOCOL // HUMAN IN CONTROL</text>
+<text x="1326" y="50" fill="#ff78d6" font-size="12">夜 / 01</text>
+</g>
+<path d="M24 72V24h96M1320 24h96v48M24 448v48h96M1320 496h96v-48" fill="none" stroke="url(#neon)" stroke-width="2"/>
+</svg>
