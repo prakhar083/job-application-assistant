@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "source_coverage": [],
+  "applications": [],
+  "record_fields": [
+    "id", "employer", "title", "location", "requisition_id", "source_urls",
+    "application_url", "fit", "fit_evidence", "status", "resume_version",
+    "updated_at", "confirmation_evidence", "blocker", "next_action"
+  ]
+}
