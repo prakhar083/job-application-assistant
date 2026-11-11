@@ -1,14 +1,25 @@
 <div align="center">
 
-# 🧭 Job Application Assistant
+![Job Application Assistant — Neon Protocol](assets/neon-protocol.svg)
 
-### A thoughtful job search, from first link to confirmed application.
+**「 NEON PROTOCOL 」**
 
-**Discover relevant roles · Apply with accurate details · Remember your answers**
+`RESUME SYNCED` · `NEXT CHAPTER LOADING` · `HUMAN IN CONTROL`
 
-[Get started](#-get-started) · [Ways to use it](#-choose-your-starting-point) · [How it works](#-the-workflow) · [Privacy](#-your-data-stays-yours)
+### Navigate the noise. Find your next chapter.
+
+[Initialize](#01--initialize) · [Select a mission](#02--mission-select) · [System map](#03--system-map) · [Private vault](#04--private-vault)
 
 </div>
+
+```text
+> boot candidate_systems
+  resume ............ source of truth
+  job queue ......... resumable
+  answers ........... remembered privately
+  final authority ... you
+> ready_
+```
 
 ---
 
@@ -16,7 +27,7 @@ Turn a resume and a collection of job links into a clear, resumable application 
 
 > **A skill, not a background service.** It guides an agent with browser or connector access. It does not run unattended, bypass site restrictions, or replace your judgment on applications and disclosures.
 
-## ✨ What it handles
+## 00 / Loadout
 
 | Capability | What you get |
 | :--- | :--- |
@@ -28,7 +39,7 @@ Turn a resume and a collection of job links into a clear, resumable application 
 | **Recruiter emails** | Short, specific messages, with unsent drafts when you want to review first. |
 | **Clear outcomes** | Confirmed submissions separated from drafts, blockers and manual follow-ups. |
 
-## 🚀 Get started
+## 01 / Initialize
 
 You need Codex, your resume, and supported browser/computer tools or relevant service connectors. For signed-in LinkedIn or email, connect the browser profile you actually use. Browser tooling and site permissions depend on your environment.
 
@@ -50,10 +61,10 @@ Shortlist suitable openings in Bengaluru and apply to strong matches.
 Ask me for missing facts and remember my confirmed answers.
 ```
 
-## 🔎 Choose your starting point
+## 02 / Mission select
 
 <details open>
-<summary><strong>1 · Discover jobs on LinkedIn</strong></summary>
+<summary><strong>01 · NEON SCOUT — Discover jobs on LinkedIn</strong></summary>
 
 ```text
 Use $job-application-assistant to find jobs matching my resume.
@@ -67,7 +78,7 @@ For a search-and-apply workflow, explicitly ask the agent to apply to strong mat
 </details>
 
 <details>
-<summary><strong>2 · Work through history or synced device tabs</strong></summary>
+<summary><strong>02 · MEMORY DIVE — History & synced device tabs</strong></summary>
 
 ```text
 Use $job-application-assistant to review job links under
@@ -81,7 +92,7 @@ The agent records what it actually inspected and where to continue if the list i
 </details>
 
 <details>
-<summary><strong>3 · Apply from a list of links</strong></summary>
+<summary><strong>03 · DIRECT LINK — Apply from supplied openings</strong></summary>
 
 ```text
 Use $job-application-assistant with these job links and my resume.
@@ -92,7 +103,7 @@ Leave assessments for me.
 </details>
 
 <details>
-<summary><strong>4 · Draft recruiter outreach</strong></summary>
+<summary><strong>04 · SIGNAL BOOST — Draft recruiter outreach</strong></summary>
 
 ```text
 Use $job-application-assistant to read this hiring post and its original post.
@@ -102,9 +113,10 @@ Let me review both drafts before sending anything.
 
 </details>
 
-## 🗺️ The workflow
+## 03 / System map
 
 ```mermaid
+%%{init: {"theme":"base","themeVariables":{"primaryColor":"#17142d","primaryTextColor":"#f5efff","primaryBorderColor":"#5ef8ee","lineColor":"#fa65d0","secondaryColor":"#301831","tertiaryColor":"#111628","fontFamily":"monospace"}}}%%
 flowchart LR
     A[Resume + preferences] --> C[Check fit]
     B[LinkedIn / history / links] --> C
@@ -116,11 +128,17 @@ flowchart LR
     F -->|No| H[Submit when authorized]
     H --> I[Verify + track outcome]
     E --> J[Save blockers for follow-up]
+    classDef cyan fill:#10282d,stroke:#5ef8ee,color:#edfffd
+    classDef pink fill:#301831,stroke:#ff65d0,color:#fff0fb
+    classDef violet fill:#201b38,stroke:#b99aff,color:#f4efff
+    class A,B,C,D cyan
+    class E,F,G pink
+    class H,I,J violet
 ```
 
 The queue stays resumable. While one application waits for an answer, another can move forward. An ambiguous submission is checked before any retry.
 
-## 🔐 Your data stays yours
+## 04 / Private vault
 
 Reusable instructions live in this repository. Candidate details live separately on the user's computer:
 
@@ -135,7 +153,7 @@ An existing tracker is reused where available. Passwords, OTPs, session tokens a
 
 **Accuracy comes first:** no invented experience, guessed disclosures or assumed work authorization. Saved facts retain their source and scope; changing details are reconfirmed when needed. Tool-required approvals still apply to account setup, agreements and other consequential steps.
 
-## 📋 Know what happened
+## 05 / Mission log
 
 | Outcome | Meaning |
 | :--- | :--- |
@@ -148,7 +166,7 @@ An existing tracker is reused where available. Passwords, OTPs, session tokens a
 
 Every unfinished application should have a direct link, a reason and a next action.
 
-## 📁 Inside the skill
+## 06 / Source files
 
 ```text
 job-application-assistant/
@@ -156,6 +174,7 @@ job-application-assistant/
 ├── README.md
 ├── agents/openai.yaml
 ├── assets/
+│   ├── neon-protocol.svg
 │   ├── profile-template.json
 │   └── applications-template.json
 └── references/
@@ -169,6 +188,10 @@ Start with [SKILL.md](SKILL.md) for the agent instructions. The [discovery guide
 
 <div align="center">
 
-**Fewer repeated forms. Clearer follow-ups. A search you can pick up again.**
+**SAVE POINT REACHED.**
+
+Your progress persists. Your next chapter is still yours to write.
+
+`END OF TRANSMISSION_`
 
 </div>
